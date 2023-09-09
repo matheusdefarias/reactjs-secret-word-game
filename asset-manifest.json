@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/matheusdefarias/reactjs-secret-word-game/static/css/main.025d4a4d.css",
-    "main.js": "/matheusdefarias/reactjs-secret-word-game/static/js/main.d790408b.js",
-    "static/js/787.e4ce4824.chunk.js": "/matheusdefarias/reactjs-secret-word-game/static/js/787.e4ce4824.chunk.js",
-    "index.html": "/matheusdefarias/reactjs-secret-word-game/index.html",
-    "main.025d4a4d.css.map": "/matheusdefarias/reactjs-secret-word-game/static/css/main.025d4a4d.css.map",
-    "main.d790408b.js.map": "/matheusdefarias/reactjs-secret-word-game/static/js/main.d790408b.js.map",
-    "787.e4ce4824.chunk.js.map": "/matheusdefarias/reactjs-secret-word-game/static/js/787.e4ce4824.chunk.js.map"
+    "main.css": "/reactjs-secret-word-game/static/css/main.025d4a4d.css",
+    "main.js": "/reactjs-secret-word-game/static/js/main.b716d012.js",
+    "static/js/787.e4ce4824.chunk.js": "/reactjs-secret-word-game/static/js/787.e4ce4824.chunk.js",
+    "index.html": "/reactjs-secret-word-game/index.html",
+    "main.025d4a4d.css.map": "/reactjs-secret-word-game/static/css/main.025d4a4d.css.map",
+    "main.b716d012.js.map": "/reactjs-secret-word-game/static/js/main.b716d012.js.map",
+    "787.e4ce4824.chunk.js.map": "/reactjs-secret-word-game/static/js/787.e4ce4824.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.025d4a4d.css",
-    "static/js/main.d790408b.js"
+    "static/js/main.b716d012.js"
   ]
 }
