@@ -24,7 +24,7 @@ const Game = ({
     setLetter("");
 
     letterInputRef.current.focus();
-  }
+  };
 
   return (
     <div className="game">
