@@ -52,7 +52,7 @@ function App() {
   const startGame = useCallback(() => {
     // Clear all letters
     clearLettersStates();
-
+    
     // Choose a word
     const { category, word } = pickWordAndCategory();
 
@@ -67,8 +67,6 @@ function App() {
 
     setGameStage(stages[1].name);
   }, [pickWordAndCategory]);
-
-  console.log(pickedCategory, pickedWord, letters);
 
   // Process the letter input
   const verifyLetter = (letter) => {
@@ -116,18 +114,15 @@ function App() {
   useEffect(() => {
     const uniqueLetters = [...new Set(letters)];
 
-    console.log(uniqueLetters);
-    console.log(guessedLetters);
-
     // Win condition
-    if (guessedLetters.length === uniqueLetters.length) {
+    if (guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name) {
       // Add score
       setScore((actualScore) => (actualScore += 100));
 
       // Restart game with new word
       startGame();
     }
-  }, [guessedLetters, letters, startGame]);
+  }, [guessedLetters, letters, gameStage, startGame]);
 
   // Restarts the game
   const retry = () => {
