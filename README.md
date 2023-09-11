@@ -65,15 +65,44 @@
 
 ## Configuração do Projeto
 
+Antes de começar, é necessario ter instalado em seu computador as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Visual Studio Code](https://code.visualstudio.com/).
+
+Após instalar o `Node.js`, digite os seguintes comandos para verificar as versões do `Node.js` e do `NPM` e com isso constatando que a instalação foi bem-sucedida:
+
+```bash
+# Verificando a versão do Node.js
+$ node -v
+
+# Verificando a versão do NPM
+$ npm -v
+```
+
 - ### Instalando o ReactJS
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis vel eros donec. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Semper auctor neque vitae tempus quam pellentesque nec. Sit amet facilisis magna etiam. Massa eget egestas purus viverra accumsan in nisl nisi. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius duis at consectetur lorem donec massa sapien faucibus. Tortor posuere ac ut consequat semper viverra. Etiam erat velit scelerisque in dictum. Lectus sit amet est placerat in egestas erat. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Ut morbi tincidunt augue interdum velit. Accumsan tortor posuere ac ut consequat semper viverra nam. Nunc non blandit massa enim nec dui. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Velit scelerisque in dictum non. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Augue eget arcu dictum varius duis at consectetur lorem donec.
+    `Create React App` é uma ferramenta de linha de comando que simplifica o processo de configuração de um novo projeto React com uma estrutura e configuração de projeto recomendadas. Para instalar o Create React App globalmente, abra um prompt de comando e execute o seguinte comando:
 
-- ## Executando o Projeto
+    ```bash
+    # Installing the Create React App tool
+    $ npm install -g create-react-app
+    ```
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis vel eros donec. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Semper auctor neque vitae tempus quam pellentesque nec. Sit amet facilisis magna etiam. Massa eget egestas purus viverra accumsan in nisl nisi. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius duis at consectetur lorem donec massa sapien faucibus. Tortor posuere ac ut consequat semper viverra. Etiam erat velit scelerisque in dictum. Lectus sit amet est placerat in egestas erat. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Ut morbi tincidunt augue interdum velit. Accumsan tortor posuere ac ut consequat semper viverra nam. Nunc non blandit massa enim nec dui. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Velit scelerisque in dictum non. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Augue eget arcu dictum varius duis at consectetur lorem donec.
+- ### Executando o Projeto
 
-<br />
+    ```bash
+    # Clone este repositório
+    $ git clone https://github.com/matheusdefarias/reactjs-secret-word-game.git
+
+    # Na raiz do projeto clonado, acesse a pasta `secret-word`
+    $ cd secret-word
+
+    # Instale as dependências
+    $ npm install
+
+    # Execute o projeto
+    $ npm start
+
+    # Abra localhost:3000 no navegador e veja o projeto rodando
+    ```
 <br />
 <div align="right">
     <a href="#portuguese">Voltar para o Sumário</a>
