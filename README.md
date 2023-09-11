@@ -97,7 +97,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Licença
 
-MIT License @ [Matheus de Farias Cavalcanti Santos](https://www.linkedin.com/in/matheusdefariascs/)
+Este projeto está sob licença do MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 <div align="right">
     <a href="#portuguese">Voltar para o Sumário</a>
@@ -106,7 +106,7 @@ MIT License @ [Matheus de Farias Cavalcanti Santos](https://www.linkedin.com/in/
 ## Autor
 
 <div style="display:flex; align-items:center; gap: 20px" >
-    <img style="border-radius: 50px;" src="https://avatars.githubusercontent.com/u/23057872?v=4" width="100px;" alt=""/>
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/23057872?v=4" width="100px;" alt=""/>
     <div style="display:flex; flex-direction: column; align-items:center;">
         <p>👋🏽 Entre em contato!</p>
         <a href="https://www.linkedin.com/in/matheusdefariascs/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheusdefariascs/"></a>
@@ -215,7 +215,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## License
 
-MIT License @ [Matheus de Farias Cavalcanti Santos](https://www.linkedin.com/in/matheusdefariascs/)
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 <div align="right">
     <a href="#english">Back to Table of Content</a>
