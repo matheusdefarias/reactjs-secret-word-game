@@ -1,4 +1,13 @@
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #a3b1cc;
+  margin-bottom: 100px;
+}
+
 h2 span {
-    color: #ecfa00;
-    font-size: 1.5em;
-  }
+  color: #9fef00;
+  font-size: 1.5em;
+}

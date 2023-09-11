@@ -1,50 +1,87 @@
 .game h1 {
-    font-size: 2.5em;
-  }
-  
-  .points span {
-    font-weight: bold;
-  }
-  
-  .tip span {
-    color: #ecfa00;
-  }
-  
-  .wordContainer {
-    margin: 1.5em;
-    padding: 1.5em;
-    border: 20px solid #ecfa00;
-    display: flex;
-  }
-  
-  .letter,
-  .blankSquare {
-    font-size: 70px;
-    line-height: 1.5;
-    border: 3px solid #000;
-    height: 100px;
-    width: 100px;
-    text-transform: uppercase;
-    background-color: #fff;
-    color: #000;
-    font-weight: bold;
-  }
-  
-  .letterContainer p {
-    margin-bottom: 1.2em;
-  }
-  
-  .letterContainer form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .letterContainer input {
-    height: 50px;
-    width: 50px;
-    font-size: 2em;
-    text-align: center;
-    margin-right: 1em;
-  }
-  
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.game p,
+.points span,
+.tip {
+  color: #a3b1cc;
+}
+
+.points span {
+  font-weight: bold;
+}
+
+.tip span {
+  color: #9fef00;
+}
+
+.wordContainer {
+  margin: 1.5em;
+  padding: 1.5em;
+  border: 20px solid #9fef00;
+  border-radius: 8px;
+  display: flex;
+}
+
+.letter,
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  border: 2px solid #aab7d0;
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background: rgb(126, 127, 129);
+  background: linear-gradient(
+    180deg,
+    rgba(126, 127, 129, 0.2) 0%,
+    rgba(40, 50, 67, 0) 100%
+  );
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.letterContainer p {
+  margin-bottom: 1.2em;
+  color: #a3b1cc;
+}
+
+.letterContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letterContainer input {
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 1em;
+  border-radius: 8px;
+}
+
+.guesses-number {
+  font-size: 1.5em;
+  color: #f82c2d;
+}
+
+.wrongLettersContainer p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.wrongLettersContainer span {
+  color: #f82c2d;
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  border: 2px solid #aab7d0;
+  border-radius: 3px;
+
+  padding: 8px;
+}
