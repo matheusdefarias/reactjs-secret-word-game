@@ -1,1 +1,1 @@
-# secret-word-game
+<h1 align="center"Secret Word Game</h1>
