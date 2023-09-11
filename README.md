@@ -1,5 +1,5 @@
 <h1 align="center">Secret Word Game</h1>
-<p align="center"><strong>Demonstração do projeto:</strong> <a href="https://matheusdefarias.github.io/reactjs-secret-word-game/" target="_blank">Secret Word Game</a></p>
+<p align="center"><strong>Demonstração do projeto/Project demonstration:</strong> <a href="https://matheusdefarias.github.io/reactjs-secret-word-game/" target="_blank">Secret Word Game</a></p>
 <p align="center"><img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo%2FFinished-43aa23"></p>
 <p align="center">Idioma/Language:</p>
 <p align="center"><a href="#portuguese">Português/Portuguese</a> - <a href="#english">Inglês/English</a></p>
