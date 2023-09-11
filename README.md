@@ -82,7 +82,7 @@ $ npm -v
     `Create React App` é uma ferramenta de linha de comando que simplifica o processo de configuração de um novo projeto React com uma estrutura e configuração de projeto recomendadas. Para instalar o Create React App globalmente, abra um prompt de comando e execute o seguinte comando:
 
     ```bash
-    # Installing the Create React App tool
+    # Instalando a ferramenta Create React App
     $ npm install -g create-react-app
     ```
 
@@ -203,15 +203,44 @@ Este projeto está sob licença do MIT. Consulte o arquivo [LICENSE](LICENSE) pa
 
 ## Project Setup
 
-- ## Installing ReactJS
+Before starting, you must have the following tools installed on your computer: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) and [Visual Studio Code](https://code.visualstudio.com/).
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis vel eros donec. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Semper auctor neque vitae tempus quam pellentesque nec. Sit amet facilisis magna etiam. Massa eget egestas purus viverra accumsan in nisl nisi. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius duis at consectetur lorem donec massa sapien faucibus. Tortor posuere ac ut consequat semper viverra. Etiam erat velit scelerisque in dictum. Lectus sit amet est placerat in egestas erat. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Ut morbi tincidunt augue interdum velit. Accumsan tortor posuere ac ut consequat semper viverra nam. Nunc non blandit massa enim nec dui. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Velit scelerisque in dictum non. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Augue eget arcu dictum varius duis at consectetur lorem donec.
+After installing `Node.js`, type the following commands to check the versions of `Node.js` and `NPM` and verify that the installation was successful:
+
+```bash
+# Checking the Node.js version
+$ node -v
+
+# Checking the NPM version
+$ npm -v
+```
+
+- ## Installing ReactJS
+    
+    `Create React App` is a command-line tool that simplifies the process of setting up a new React project with a recommended project structure and configuration. To install Create React App globally, open a command prompt and run the following command:
+
+    ```bash
+    # Installing the Create React App tool
+    $ npm install -g create-react-app
+    ```
 
 - ## Running the Project
+    
+    ```bash
+    # Clone this repository
+    $ git clone https://github.com/matheusdefarias/reactjs-secret-word-game.git
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis vel eros donec. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Semper auctor neque vitae tempus quam pellentesque nec. Sit amet facilisis magna etiam. Massa eget egestas purus viverra accumsan in nisl nisi. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius duis at consectetur lorem donec massa sapien faucibus. Tortor posuere ac ut consequat semper viverra. Etiam erat velit scelerisque in dictum. Lectus sit amet est placerat in egestas erat. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Ut morbi tincidunt augue interdum velit. Accumsan tortor posuere ac ut consequat semper viverra nam. Nunc non blandit massa enim nec dui. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Velit scelerisque in dictum non. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Augue eget arcu dictum varius duis at consectetur lorem donec.
+    # In the root of the cloned project, access the 'secret-word' folder
+    $ cd secret-word
 
-<br />
+    # Install dependencies
+    $ npm install
+
+    # Run the project
+    $ npm start
+
+    # Access 'http://localhost:3000' in the browser and see the project running
+    ```
 <br />
 <div align="right">
     <a href="#english">Back to Table of Content</a>
@@ -219,7 +248,8 @@ Este projeto está sob licença do MIT. Consulte o arquivo [LICENSE](LICENSE) pa
 
 ## Future Works
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis vel eros donec. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Semper auctor neque vitae tempus quam pellentesque nec. Sit amet facilisis magna etiam. Massa eget egestas purus viverra accumsan in nisl nisi. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius duis at consectetur lorem donec massa sapien faucibus. Tortor posuere ac ut consequat semper viverra. Etiam erat velit scelerisque in dictum. Lectus sit amet est placerat in egestas erat. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Ut morbi tincidunt augue interdum velit. Accumsan tortor posuere ac ut consequat semper viverra nam. Nunc non blandit massa enim nec dui. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Velit scelerisque in dictum non. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Augue eget arcu dictum varius duis at consectetur lorem donec.
+- [ ] Create an API that provides word categories and words to be consumed;
+- [ ] Integrate the front-end of the application with the back-end, enabling the consumption of the API.
 
 <div align="right">
     <a href="#english">Back to Table of Content</a>
