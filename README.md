@@ -110,7 +110,7 @@ $ npm -v
 
 ## Trabalhos Futuros
 
-- [ ] Criar uma API que forneça as categorias das palavras e as palavras para ser consumida;
+- [ ] Criar uma API, que forneça as categorias das palavras e as palavras, para ser consumida;
 - [ ] Integrar o front-end da aplicação com o back-end possibilitando o consumo da API.
 
 <div align="right">
