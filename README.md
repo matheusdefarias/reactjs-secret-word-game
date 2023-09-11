@@ -215,7 +215,7 @@ $ node -v
 $ npm -v
 ```
 
-- ## Installing ReactJS
+- ### Installing ReactJS
     
     `Create React App` is a command-line tool that simplifies the process of setting up a new React project with a recommended project structure and configuration. To install Create React App globally, open a command prompt and run the following command:
 
@@ -224,7 +224,7 @@ $ npm -v
     $ npm install -g create-react-app
     ```
 
-- ## Running the Project
+- ### Running the Project
     
     ```bash
     # Clone this repository
