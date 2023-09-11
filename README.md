@@ -1,6 +1,6 @@
 <h1 align="center">Secret Word Game</h1>
 <p align="center"><strong>Demonstração do projeto:</strong> <a href="https://matheusdefarias.github.io/reactjs-secret-word-game/" target="_blank">Secret Word Game</a></p>
-<p align="center"><strong>Status:</strong> Concluído</p>
+<p align="center"><strong>Status:</strong> Concluído/Finished</p>
 
 Idioma/Language: <a href="#portuguese">Português/Portuguese</a> - <a href="#english">Inglês/English</a>
 <div id="portuguese"></div>
