@@ -29,7 +29,9 @@
 
 ## Imagens
 
-🚧...Em breve... 
+<img src="./screenshots/StartScreen.JPG">
+<img src="./screenshots/GameScreen.JPG">
+<img src="./screenshots/GameOverScreen.JPG">
 
 <div align="right">
     <a href="#portuguese">Voltar para o Sumário</a>
@@ -166,7 +168,9 @@ Este projeto está sob licença do MIT. Consulte o arquivo [LICENSE](LICENSE) pa
 
 ## Screenshots
 
-🚧...Soon... 
+<img src="./screenshots/StartScreen.JPG">
+<img src="./screenshots/GameScreen.JPG">
+<img src="./screenshots/GameOverScreen.JPG">
 
 <div align="right">
     <a href="#english">Back to Table of Content</a>
