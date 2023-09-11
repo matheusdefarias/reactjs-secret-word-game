@@ -1,6 +1,7 @@
 <h1 align="center">Secret Word Game</h1>
 <p align="center"><strong>Demonstração do projeto:</strong> <a href="https://matheusdefarias.github.io/reactjs-secret-word-game/" target="_blank">Secret Word Game</a></p>
-<p align="center"><img src="https://img.shields.io/static/v1?label=Status&message=Concluído/Finished&color=43aa23&style=flat"/></p>
+<p align="center"><img src="<img alt="Static Badge" src="https://img.shields.io/badge/Status-Conclu%C3%ADdo%2FFinished-43aa23">
+"/></p>
 
 Idioma/Language: <a href="#portuguese">Português/Portuguese</a> - <a href="#english">Inglês/English</a>
 <div id="portuguese"></div>
