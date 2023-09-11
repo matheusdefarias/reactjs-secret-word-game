@@ -1,11 +1,12 @@
 <h1 align="center">Secret Word Game</h1>
 <p align="center"><strong>Demonstração do projeto:</strong> <a href="https://matheusdefarias.github.io/reactjs-secret-word-game/" target="_blank">Secret Word Game</a></p>
 <p align="center"><img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo%2FFinished-43aa23"></p>
+<p align="center">Idioma/Language:</p>
+<p align="center"><a href="#portuguese">Português/Portuguese</a> - <a href="#english">Inglês/English</a></p>
 
-
-Idioma/Language: <a href="#portuguese">Português/Portuguese</a> - <a href="#english">Inglês/English</a>
 <div id="portuguese"></div>
 
+## Sumário
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Imagens](#imagens)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -122,6 +123,7 @@ MIT License @ [Matheus de Farias Cavalcanti Santos](https://www.linkedin.com/in/
 
 <div id="english"></div>
 
+## Table of Content
 - [About the Project](#about-the-project)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
