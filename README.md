@@ -94,7 +94,7 @@ $ npm -v
     # Clone este repositório
     $ git clone https://github.com/matheusdefarias/reactjs-secret-word-game.git
 
-    # Na raiz do projeto clonado, acesse a pasta 'secret-word'
+    # Na raiz do projeto clonado, acesse a pasta 'reactjs-secret-word-game/secret-word'
     $ cd secret-word
 
     # Instale as dependências
