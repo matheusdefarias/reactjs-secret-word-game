@@ -18,6 +18,15 @@ const stages = [
   { id: 3, name: "end" },
 ];
 
+const categoriesPort = {
+  car: "Carro",
+  fruit: "Fruta",
+  body: "Corpo",
+  computer: "Computador",
+  programming: "Programação",
+  food: "Alimento"
+}
+
 const guessesQty = 3;
 
 function App() {
@@ -45,7 +54,9 @@ function App() {
     let wordRandomIndex = Math.floor(Math.random() * words[category].length);
     const word = words[category][wordRandomIndex];
 
-    return { category, word };
+    const categoryPort = categoriesPort[category];
+    
+    return { categoryPort, word };
   }, [words]);
 
   // Starts the Scret Word Game
@@ -54,14 +65,14 @@ function App() {
     clearLettersStates();
     
     // Choose a word
-    const { category, word } = pickWordAndCategory();
-
+    const { categoryPort, word } = pickWordAndCategory();
+    
     //Create an array of letters
     let wordLetters = word.split("");
     wordLetters = wordLetters.map((letter) => letter.toLowerCase());
 
     // Fill states
-    setPickedCategory(category);
+    setPickedCategory(categoryPort);
     setPickedWord(word);
     setLetters(wordLetters);
 
