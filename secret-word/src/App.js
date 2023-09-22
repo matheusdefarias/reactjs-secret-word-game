@@ -8,9 +8,9 @@ import { useCallback, useEffect, useState } from "react";
 import { wordsList } from "./data/words";
 
 // Components
-import StartScreen from "./components/StartScreen";
-import GameOver from "./components/GameOver";
-import Game from "./components/Game";
+import StartScreen from "./components/StartScreen/StartScreen";
+import GameOver from "./components/GameOver/GameOver";
+import Game from "./components/Game/Game";
 
 const stages = [
   { id: 1, name: "start" },
