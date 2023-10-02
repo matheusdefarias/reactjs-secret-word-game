@@ -5,7 +5,7 @@ import "./App.css";
 import { useCallback, useEffect, useState } from "react";
 
 // Data
-import { wordsList } from "./data/words";
+import { wordsList, categoriesType } from "./data/words";
 
 // Components
 import StartScreen from "./components/StartScreen";
@@ -17,15 +17,6 @@ const stages = [
   { id: 2, name: "game" },
   { id: 3, name: "end" },
 ];
-
-const categoriesPort = {
-  car: "Carro",
-  fruit: "Fruta",
-  body: "Corpo",
-  computer: "Computador",
-  programming: "Programação",
-  food: "Alimento"
-}
 
 const guessesQty = 3;
 
@@ -54,7 +45,7 @@ function App() {
     let wordRandomIndex = Math.floor(Math.random() * words[category].length);
     const word = words[category][wordRandomIndex];
 
-    const categoryPort = categoriesPort[category];
+    const categoryPort = categoriesType[category];
     
     return { categoryPort, word };
   }, [words]);

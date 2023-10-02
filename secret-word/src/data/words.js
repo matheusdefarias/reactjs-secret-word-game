@@ -6,3 +6,12 @@ export const wordsList = {
   programming: ["Linguagem", "Framework", "JavaScript", "React"],
   food: ["Arroz", "Feijão", "Carne", "Leite", "Ovo"],
 };
+
+export const categoriesType = {
+  car: "Carro",
+  fruit: "Fruta",
+  body: "Corpo",
+  computer: "Computador",
+  programming: "Programação",
+  food: "Alimento"
+};
