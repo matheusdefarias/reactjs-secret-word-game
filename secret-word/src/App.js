@@ -1,16 +1,9 @@
-// CSS
 import "./App.css";
-
-// React
 import { useCallback, useEffect, useState } from "react";
-
-// Data
 import { wordsList } from "./data/words";
-
-// Components
-import StartScreen from "./components/StartScreen/StartScreen";
-import GameOver from "./components/GameOver/GameOver";
-import Game from "./components/Game/Game";
+import { StartScreen } from "./components/StartScreen";
+import { GameOver } from "./components/GameOver";
+import { Game } from "./components/Game";
 
 const stages = [
   { id: 1, name: "start" },
@@ -52,7 +45,7 @@ function App() {
   const startGame = useCallback(() => {
     // Clear all letters
     clearLettersStates();
-    
+
     // Choose a word
     const { category, word } = pickWordAndCategory();
 
@@ -115,7 +108,10 @@ function App() {
     const uniqueLetters = [...new Set(letters)];
 
     // Win condition
-    if (guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name) {
+    if (
+      guessedLetters.length === uniqueLetters.length &&
+      gameStage === stages[1].name
+    ) {
       // Add score
       setScore((actualScore) => (actualScore += 100));
 
