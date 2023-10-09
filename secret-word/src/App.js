@@ -86,7 +86,7 @@ function App() {
     if (letters.includes(normalizedLetter)) {
       setGuessedLetters((actualGuessedLetters) => [
         ...actualGuessedLetters,
-        letter,
+        normalizedLetter,
       ]);
     } else {
       setWrongLetters((actualWrongLetters) => [
