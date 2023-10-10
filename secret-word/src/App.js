@@ -5,7 +5,7 @@ import "./App.css";
 import { useCallback, useEffect, useState } from "react";
 
 // Data
-import { wordsList } from "./data/words";
+import { wordsList, categoriesType } from "./data/words";
 
 // Components
 import StartScreen from "./components/StartScreen";
@@ -45,7 +45,9 @@ function App() {
     let wordRandomIndex = Math.floor(Math.random() * words[category].length);
     const word = words[category][wordRandomIndex];
 
-    return { category, word };
+    const categoryPort = categoriesType[category];
+    
+    return { categoryPort, word };
   }, [words]);
 
   // Starts the Scret Word Game
@@ -54,14 +56,14 @@ function App() {
     clearLettersStates();
     
     // Choose a word
-    const { category, word } = pickWordAndCategory();
-
+    const { categoryPort, word } = pickWordAndCategory();
+    
     //Create an array of letters
     let wordLetters = word.split("");
     wordLetters = wordLetters.map((letter) => letter.toLowerCase());
 
     // Fill states
-    setPickedCategory(category);
+    setPickedCategory(categoryPort);
     setPickedWord(word);
     setLetters(wordLetters);
 
