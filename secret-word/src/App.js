@@ -1,6 +1,6 @@
 import "./App.css";
 import { useCallback, useEffect, useState } from "react";
-import { wordsList } from "./data/words";
+import { wordsList, categoriesType } from "./data/words";
 import { StartScreen } from "./components/StartScreen";
 import { GameOver } from "./components/GameOver";
 import { Game } from "./components/Game";
@@ -38,7 +38,9 @@ function App() {
     let wordRandomIndex = Math.floor(Math.random() * words[category].length);
     const word = words[category][wordRandomIndex];
 
-    return { category, word };
+    const categoryPort = categoriesType[category];
+    
+    return { categoryPort, word };
   }, [words]);
 
   // Starts the Scret Word Game
@@ -47,14 +49,14 @@ function App() {
     clearLettersStates();
 
     // Choose a word
-    const { category, word } = pickWordAndCategory();
-
+    const { categoryPort, word } = pickWordAndCategory();
+    
     //Create an array of letters
     let wordLetters = word.split("");
     wordLetters = wordLetters.map((letter) => letter.toLowerCase());
 
     // Fill states
-    setPickedCategory(category);
+    setPickedCategory(categoryPort);
     setPickedWord(word);
     setLetters(wordLetters);
 
@@ -77,7 +79,7 @@ function App() {
     if (letters.includes(normalizedLetter)) {
       setGuessedLetters((actualGuessedLetters) => [
         ...actualGuessedLetters,
-        letter,
+        normalizedLetter,
       ]);
     } else {
       setWrongLetters((actualWrongLetters) => [

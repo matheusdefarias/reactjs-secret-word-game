@@ -33,10 +33,7 @@ export const Game = ({
       </p>
       <h1>Adivinhe a palavra:</h1>
       <h3 className="tip">
-        Dica sobre a palavra:{" "}
-        <span>
-          {pickedCategory.charAt(0).toUpperCase() + pickedCategory.slice(1)}
-        </span>
+        Dica sobre a palavra: <span>{pickedCategory}</span>
       </h3>
       <p>
         Você ainda tem <span className="guesses-number">{guesses}</span>
