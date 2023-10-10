@@ -39,7 +39,7 @@ function App() {
     const word = words[category][wordRandomIndex];
 
     const categoryPort = categoriesType[category];
-    
+
     return { categoryPort, word };
   }, [words]);
 
@@ -50,7 +50,7 @@ function App() {
 
     // Choose a word
     const { categoryPort, word } = pickWordAndCategory();
-    
+
     //Create an array of letters
     let wordLetters = word.split("");
     wordLetters = wordLetters.map((letter) => letter.toLowerCase());

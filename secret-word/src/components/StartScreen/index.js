@@ -1,1 +1,1 @@
-export * from './StartScreen';
+export * from "./StartScreen";
