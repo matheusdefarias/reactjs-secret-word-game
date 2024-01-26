@@ -13,5 +13,5 @@ export const categoriesType = {
   body: "Corpo",
   computer: "Computador",
   programming: "Programação",
-  food: "Alimento"
+  food: "Alimento",
 };

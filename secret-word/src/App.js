@@ -1,16 +1,9 @@
-// CSS
 import "./App.css";
-
-// React
 import { useCallback, useEffect, useState } from "react";
-
-// Data
 import { wordsList, categoriesType } from "./data/words";
-
-// Components
-import StartScreen from "./components/StartScreen";
-import GameOver from "./components/GameOver";
-import Game from "./components/Game";
+import { StartScreen } from "./components/StartScreen";
+import { GameOver } from "./components/GameOver";
+import { Game } from "./components/Game";
 
 const stages = [
   { id: 1, name: "start" },
@@ -46,7 +39,7 @@ function App() {
     const word = words[category][wordRandomIndex];
 
     const categoryPort = categoriesType[category];
-    
+
     return { categoryPort, word };
   }, [words]);
 
@@ -54,10 +47,10 @@ function App() {
   const startGame = useCallback(() => {
     // Clear all letters
     clearLettersStates();
-    
+
     // Choose a word
     const { categoryPort, word } = pickWordAndCategory();
-    
+
     //Create an array of letters
     let wordLetters = word.split("");
     wordLetters = wordLetters.map((letter) => letter.toLowerCase());
@@ -117,7 +110,10 @@ function App() {
     const uniqueLetters = [...new Set(letters)];
 
     // Win condition
-    if (guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name) {
+    if (
+      guessedLetters.length === uniqueLetters.length &&
+      gameStage === stages[1].name
+    ) {
       // Add score
       setScore((actualScore) => (actualScore += 100));
 
